@@ -43,3 +43,50 @@ header {
     width: 30px;
     height: 30px;
 }
+
+h2, .annee {
+    color: #17abb3;
+}
+
+.dev_competence ul, .langues ul {
+    list-style: none;
+}
+
+.qualite ul li, .interet ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.qualite ul li::before,
+.interet ul li::before {
+    content: "■";
+    color: #17abb3;
+    position: absolute;
+    left: 0;
+    width: 6px;
+    height: 6px;
+}
+
+.langues ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px 0;
+}
+
+.cv {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+}
+
+.competence {
+    grid-column: 1;
+    background-color: #e3e3e3 ;
+    padding: 20px;
+}
+
+.corpus {
+    grid-column: 2;
+}
