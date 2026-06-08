@@ -114,3 +114,11 @@ hr {
     margin-left: 20px;
     white-space: nowrap;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #17abb3;
+    color: white;
+    margin-top: 20px;
+}
